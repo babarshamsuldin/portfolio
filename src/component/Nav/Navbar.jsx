@@ -3,9 +3,17 @@ import "./Navbar.css"
 
 const Navbar = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <nav>
+        <h1>PORTFOLIO</h1>
+        <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Project</li>
+        <li>Contact</li>
+        </ul>
+      </nav>
+    </>
   )
 }
 
