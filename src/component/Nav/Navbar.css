@@ -8,6 +8,7 @@ nav{
     position: fixed;
     top: 0;
     background-color: black;
+    z-index: 20;
 }
 .active{
     color: aqua;
