@@ -4,7 +4,11 @@ import "./Home.css"
 const Home = () => {
   return (
     <div id='home'>
-      home
+      <div className="lefthome">
+        
+      </div>
+
+      <div className="righthome"></div>
     </div>
   )
 }
