@@ -4,8 +4,84 @@ import Card from '../Card/Card';
 import mern from "../../assets/mern.png"
 import java from "../../assets/java.png"
 import dsa from "../../assets/dsa.png"
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/all';
+gsap.registerPlugin(ScrollTrigger)
 
 const About = () => {
+
+  useGSAP(()=>{
+    gsap.from(".circle",{
+      x: -100,
+      duration: 1,
+      opacity:0,
+      stagger:1,
+      scrollTrigger:{
+        trigger: ".circle",
+        scroll: "body",
+        scrub:2,
+        markers: true,
+        start:"top 60%",
+        end:"end 30%"
+      }
+    })
+    gsap.from(".line",{
+      x: -100,
+      duration: 1,
+      opacity:0,
+      stagger:1,
+      scrollTrigger:{
+        trigger: ".circle",
+        scroll: "body",
+        scrub:2,
+        markers: true,
+        start:"top 60%",
+        end:"end 30%"
+      }
+    })
+    gsap.from(".aboutdetails h1",{
+      x: -100,
+      duration: 1,
+      opacity:0,
+      stagger:1,
+      scrollTrigger:{
+        trigger: ".circle",
+        scroll: "body",
+        scrub:2,
+        markers: true,
+        start:"top 60%",
+        end:"end 30%"
+      }
+    })
+    gsap.from(".aboutdetails li",{
+      y: 100,
+      duration: 1,
+      opacity:0,
+      scrollTrigger:{
+        trigger: ".circle",
+        scroll: "body",
+        scrub:2,
+        markers: true,
+        start:"top 60%",
+        end:"end 30%"
+      }
+    })
+    gsap.from(".rightabout",{
+      x: 100,
+      duration: 1,
+      opacity:0,
+      stagger:1,
+      scrollTrigger:{
+        trigger: ".rightabout",
+        scroll: "body",
+        scrub:2,
+        markers: true,
+        start:"top 60%",
+        end:"end 30%"
+      }
+    })
+  })
   return (
     <div id='about'>
       <div className="leftabout">
