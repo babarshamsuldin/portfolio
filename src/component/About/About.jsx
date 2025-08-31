@@ -21,7 +21,6 @@ const About = () => {
         trigger: ".circle",
         scroll: "body",
         scrub:2,
-        markers: true,
         start:"top 60%",
         end:"end 30%"
       }
@@ -35,7 +34,6 @@ const About = () => {
         trigger: ".circle",
         scroll: "body",
         scrub:2,
-        markers: true,
         start:"top 60%",
         end:"end 30%"
       }
@@ -49,7 +47,6 @@ const About = () => {
         trigger: ".circle",
         scroll: "body",
         scrub:2,
-        markers: true,
         start:"top 60%",
         end:"end 30%"
       }
@@ -62,7 +59,6 @@ const About = () => {
         trigger: ".circle",
         scroll: "body",
         scrub:2,
-        markers: true,
         start:"top 60%",
         end:"end 30%"
       }
@@ -76,7 +72,6 @@ const About = () => {
         trigger: ".rightabout",
         scroll: "body",
         scrub:2,
-        markers: true,
         start:"top 60%",
         end:"end 30%"
       }

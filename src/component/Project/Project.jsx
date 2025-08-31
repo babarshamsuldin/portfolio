@@ -22,7 +22,6 @@ const Project = () => {
         trigger: "#para",
         scroll: "body",
         scrub:2,
-        markers: true,
         start:"top 80%",
         end:"end 30%"
       }
@@ -36,7 +35,6 @@ const Project = () => {
         trigger: "#para",
         scroll: "body",
         scrub:2,
-        markers: true,
         start:"top 80%",
         end:"end 30%"
       }
